@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700italic,700,600,300,200,300italic,400italic);
-
+#preloader  {
+	position: fixed;
+	 text-align: center;
+	 height: 0%;
+	 width: 0%;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 background-color:#fff;
+	 z-index: 99999;
+  }
 .home{
 	font-size: 15px;
 	color: #a8a8a8;
