@@ -16,17 +16,7 @@
 	position: relative;
 	top: 10px;
 }
-#preloader  {
-	position: fixed;
-	 text-align: center;
-	 height: 1%;
-	 width: 1%;
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 background-color:#fff;
-	 z-index: 99999;
-  }
+
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	-webkit-font-smoothing: antialiased;
