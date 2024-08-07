@@ -36,10 +36,21 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body class="header-horizontabutton">
-    <script >
+   
+    <div style="  padding-top:10px;position:fixed; display: flex; z-index: 1000000000000000000; font-size: 20px; height: 50px; width: 100vw; color:white; background-color: rgb(48, 48, 48);"><img src="bgt17.jpg" style="margin-left: 40vw; height: 30px;width: 30px; display: inline-block; !important" alt=""><p style="color: white; text-align: center; margin-left: 8px;">Anti corruption bureau</p>  </div>
+       <!--.navbar header-->
+       <br>
+       <div style=" height: 70px; width: 100vw; color:white; text-align: center; background-color: rgb(216, 216, 216);" >
+        <button class="tabs" style="border-color: white; color: black; position: absolute; left: 2vw; top:56px; z-index: +10000000000000000000000000000000000000000;!important "id="home" class="home" >Home</button>
+        <button class="tabs" style="border-color: white; color: black; position: absolute; left:7vw; top:56px; z-index: +100000000000000000000000000000000000000;!important"id="act" class="home">Act & Rules</button>
+        <button class="tabs" style="border-color: white; color: black; position: absolute; left:14vw; top:56px; z-index: +10000000000000000000000000000000000000000;!important" id="help"class="home">Help</button>
+        <button class="tabs" style="border-color: white; color: black; position: absolute; left:18vw; top:56px; z-index: +10000000000000000000000000000000000000000;!important"id="support"class="home">Support</button>
+    </div>
+
+   <script >
         window.watsonAssistantChatOptions = {
           integrationID: "7bcb001e-59f9-430e-aff6-486584fcb900", // The ID of this integration.
-          region: "us-south", // The region your integration is hosted in.
+          region: "us-south", // The region your integration is ho5ed in.
           serviceInstanceID: "1e8221c4-bea7-44d3-b015-cb9356a021be", // The ID of your service instance.
           onLoad: async (instance) => { await instance.render(); }
         };
@@ -57,7 +68,7 @@
   <div class="container" >
     <div class="top-bar" >
       <div class="pull-left" >
-        <div class="time"  style="color:white; position: absolute; top: 0px; left: 39vw; z-index: 10000000000;"> 
+        <div class="time"  style="position: absolute; top: 100px; left: 39vw; z-index: 10000000000;"> 
           <noscript>5
           Javascript Required
           </noscript>
@@ -104,7 +115,7 @@
       </div>
       <div class="pull-right">
         <ul class="list-inline social-1" style=" z-index: 1000000000000000000; !important">
-          <li style="color: white; position: absolute; top: 0px; left:56vw; z-index: 1000000000000000000; !important">
+          <li style="color: white; position: absolute; top: 100px; left:56vw; z-index: 1000000000000000000; !important">
             <div class="color-selector-wrapper"  > 
             <a href="#" title="Default Theme" class="color2" onclick="switch_style('color2'); return false;"></a>
             <a href="#" title="Orange Theme" class="color1" onclick="switch_style('color4'); return false;"></a>
@@ -114,7 +125,7 @@
           </div>
           </li>
           <li>
-            <div class="fontsizer" style="color: white; position: absolute; top: 0px; left:60vw; z-index: 1000000000000000000; !important"> 
+            <div class="fontsizer" style="color: white; position: absolute; top: 100px; left:60vw; z-index: 1000000000000000000; !important"> 
                  <a href="#" title="Increase Font Size" class="increase font">+</a>
                  <a href="#" title="Default Font Size" class="resetMe font">=</a>
                  <a href="#" title="Decrease Font Size" class="decrease font">-</a> 
@@ -141,12 +152,7 @@
 </div><div class="section"></div><div class="iparys_inherited"></div>
 
 
-    <!--.navbar header-->
-    
-    <button style="position: absolute; left: 100px; top:-40px;!important"id="home" class="home" style="margin-left: 0px;!important">Home</button>
-    <button style="position: absolute; left: 155px; top:-40px;!important"id="act" class="home">Act & Rules</button>
-    <button style="position: absolute; left: 240px; top:-40px;!important" id="help"class="home">Help</button>
-    <button style="position: absolute; left: 285px; top:-40px;!important"id="support"class="home">Support</button>
+
 
 
 <div class="navbar-collapse collapse pol-dep-menu">
